@@ -1,0 +1,98 @@
+{
+  "companyInfo": {
+    "companyName": "",
+    "companyAddress": "",
+    "companyPhone": "",
+    "companyEmail": "",
+    "companyPersonnel": "",
+    "isCompanyStamp": false
+  },
+  "products": {
+    "categories": [
+      {
+        "id": "cat0",
+        "categoryName": "vegetables"
+      },
+      {
+        "id": "cat1",
+        "categoryName": "meats"
+      },
+      {
+        "id": "cat2",
+        "categoryName": "other"
+      }
+    ]
+  },
+  "items": [
+    {
+      "category": "cat0",
+      "itemName": "トマト",
+      "price": 198,
+      "vat": {
+        "type": "jajp",
+        "rate": "reduced"
+      },
+      "unit": "パック"
+    },
+    {
+      "category": "cat0",
+      "itemName": "きゅうり",
+      "price": 98,
+      "vat": {
+        "type": "jajp",
+        "rate": "reduced"
+      },
+      "unit": "本"
+    },
+    {
+      "category": "cat0",
+      "itemName": "banana",
+      "price": 118,
+      "vat": {
+        "type": "jajp",
+        "rate": "reduced"
+      },
+      "unit": "パック"
+    },
+    {
+      "category": "cat1",
+      "itemName": "chicken",
+      "price": 358,
+      "vat": {
+        "type": "jajp",
+        "rate": "reduced"
+      },
+      "unit": "パック"
+    },
+    {
+      "category": "cat1",
+      "itemName": "beef",
+      "price": 714,
+      "vat": {
+        "type": "jajp",
+        "rate": "reduced"
+      },
+      "unit": "パック"
+    },
+    {
+      "category": "cat2",
+      "itemName": "ヨーグルト",
+      "price": 128,
+      "vat": {
+        "type": "jajp",
+        "rate": "reduced"
+      },
+      "unit": "個"
+    },
+    {
+      "category": "cat2",
+      "itemName": "どら焼き",
+      "price": 98,
+      "vat": {
+        "type": "jajp",
+        "rate": "reduced"
+      },
+      "unit": "個"
+    }
+  ]
+}

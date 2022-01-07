@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Parcel Sandbox</title>
+	<meta charset="UTF-8" />
+</head>
+
+<body>
+	<div id="app">
+		{{ $data }}
+		<form v-show="productsData">
+			<ul>
+				<li v-for="(item, i) in estimateItems" :data-item="'item-' + i">
+						<select v-model="categorySelected[i]">
+								<option :value="cat.id" v-for="(cat, j) in productsData.products.categories">{{ cat.categoryName }}</option>
+						</select>
+						<select v-model="estimateItems[i].itemName">
+							<option :value="item.itemName" v-for="item in selectProduct(categorySelected[i])" :value="estimateItems[i].itemName">{{ item.itemName }}</option>
+						</select>
+						<p class="price">{{ item.price }}円</p>
+				</li>
+			</ul>
+		</form>
+	</div>
+
+	<script src="src/index.js">
+	</script>
+</body>
+
+</html>
